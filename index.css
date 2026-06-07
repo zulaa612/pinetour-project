@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section Style */
+
+#hero-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./pictures/HeroImage.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header-container {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 118px;
+  padding-right: 118px;
+}
+#navbar-items {
+  gap: 24px;
+  display: flex;
+}
+
+.navbar-item {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/*Hero Section Texts*/
+
+#hero-texts {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#pure {
+  font-size: 80px;
+  font-weight: 400;
+  color: #e8edf2b8;
+  font-family: "Inter", serif;
+}
+
+#awaits {
+  font-size: 250px;
+  font-weight: 400;
+  color: #fdfdfefa;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#year {
+  font-size: 64px;
+  font-weight: 900;
+  color: #ffffffcc;
+  font-family: "Hanuman", serif;
+}
+
+#LocationContainer {
+  width: 100vw;
+  height: 500px;
+  background-color: red;
+  background-image: url(./pictures/Location\ image.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#locations {
+  width: 1440px;
+  height: 100%;
+  padding-left: 110px;
+  padding-right: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#terh {
+  width: 250px;
+  height: 370px;
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  background-image: url(/pinetour/pictures/1\ \(1\).png);
+}
+
+#amar {
+  width: 250px;
+  height: 370px;
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  background-image: url(/pinetour/pictures/2.png);
+}
+
+#huvsgul {
+  width: 250px;
+  height: 370px;
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  background-image: url(/pinetour/pictures/3.png);
+}
+
+#horgo {
+  width: 250px;
+  height: 370px;
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  background-image: url(/pinetour/pictures/4.png);
+}
+
+.textLocation {
+  font-family: sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  color: #fdfdfe;
+  
+}
