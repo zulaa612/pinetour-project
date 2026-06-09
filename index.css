@@ -181,35 +181,41 @@
   background-image: url(./pictures/Location\ image.png);
   background-size: cover;
   margin: auto;
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 264px;
 }
 
 #roadmapContainer {
   width: 1440px;
-  height: 1022px;
+  height: 902px;
   background-image: url(./pictures/Roadmap\ image.png);
   background-size: cover;
   position: relative;
-  padding-top: 264px;
 }
 
 #roadmaptitle {
-  padding-top: 120px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  width: 1440px;
+  height: 204px;
+  padding-top: 120px;
 }
 
 #roadItems {
   width: 1200px;
-  height: 640px;
+  height: 902px;
   display: flex;
   flex-direction: column;
   padding-left: 120px;
   gap: 20px;
-
+  box-sizing: border-box;
+  padding-top: 59px;
 }
 
 .roadSukh {
@@ -228,8 +234,8 @@
   height: 245px;
   position: absolute;
   border-radius: 50%;
-    top: 35%;
-    right: 12%;
+  top: 35%;
+  right: 9%;
   background-image: url(./pictures/Frame\ 176.png);
   background-size: cover;
   display: none;
@@ -242,7 +248,7 @@
 .roadAmar {
   width: 513px;
   height: 112px;
-  background-color: #8BB8C1CC;
+  background-color: #8bb8c1cc;
   border-radius: 120px;
   box-sizing: border-box;
   display: flex;
@@ -255,8 +261,8 @@
   height: 245px;
   position: absolute;
   border-radius: 50%;
-    top: 17%;
-    right: 22.8%;
+  top: 24.5%;
+  right: 24%;
   background-image: url(.//pictures/Frame\ 177.png);
   background-size: cover;
   display: none;
@@ -266,10 +272,10 @@
   display: flex;
 }
 
-.roadKorgo {
+.roadKhorgo {
   width: 513px;
   height: 112px;
-  background-color: #AAD8D7CC;
+  background-color: #aad8d7cc;
   border-radius: 120px;
   box-sizing: border-box;
   display: flex;
@@ -282,8 +288,8 @@
   height: 245px;
   position: absolute;
   border-radius: 50%;
-  top: 37%;
-  right: 9%;
+  top: 40%;
+  right: 33%;
   background-image: url(./pictures/11111.png);
   background-size: cover;
   display: none;
@@ -296,7 +302,7 @@
 .roadTerkh {
   width: 513px;
   height: 112px;
-  background-color: #8BC0BDCC;
+  background-color: #8bc0bdcc;
   border-radius: 120px;
   box-sizing: border-box;
   display: flex;
@@ -309,8 +315,8 @@
   height: 245px;
   position: absolute;
   border-radius: 50%;
-  top: 37%;
-  right: 9%;
+  top: 19%;
+  right: 38%;
   background-image: url(./pictures/Frame\ 178.png);
   background-size: cover;
   display: none;
@@ -323,7 +329,7 @@
 .roadKhuvsgul {
   width: 513px;
   height: 112px;
-  background-color: #97CCE0CC;
+  background-color: #97cce0cc;
   border-radius: 120px;
   box-sizing: border-box;
   display: flex;
@@ -336,13 +342,22 @@
   height: 245px;
   position: absolute;
   border-radius: 50%;
-  top: 37%;
-  right: 9%;
+  top: 19%;
+  right: 25.9%;
   background-image: url(./pictures/Frame\ 179.png);
   background-size: cover;
   display: none;
 }
 
-#khuvsgul:hover + #Khuvsgul-location {
+#Khuvsgul:hover + #Khuvsgul-location {
   display: flex;
+}
+
+/*Road Item Texts*/
+
+.location-name{
+  font-size: 24px;
+  color: #09090B;
+  font-weight: 500;
+  margin-bottom: 4px;
 }
