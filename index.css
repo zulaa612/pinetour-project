@@ -106,8 +106,8 @@
 
 #blackBox {
   position: absolute;
-  width: 1440px;
-  height: 500px;
+  width: 250px;
+  height: 370px;
   background-color: black;
   border-radius: 40px;
   opacity: 0;
@@ -384,19 +384,211 @@
   margin-right: 30px;
 }
 
-.day{
+.day {
   padding-top: 18px;
   padding-left: 9px;
 }
 
 /*Road Map Section End*/
 
-
 /*Price Section Start*/
-#price{
+
+#price {
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
+  background-image: url(./pictures/Price&Footer\ image.png);
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footercontainer {
+  width: 1440px;
+  height: 1120px;
 }
 
+#pricecontainer {
+  width: 1440px;
+  height: 85px;
+  padding-left: 110px;
+  padding-right: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  box-sizing: border-box;
+  padding-top: 12px;
+}
+
+#pricetextposition {
+  width: 1440px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+}
+
+#pricetext {
+  font-weight: 600;
+  font-size: 51px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#text {
+  font-weight: 24px;
+  font-size: 500;
+  color: #181818;
+  padding-top: 10px;
+}
+
+#cardcontainer {
+  width: 1200px;
+  height: 527px;
+  display: flex;
+  margin-top: 79px;
+  gap: 24px;
+  align-items: center;
+  margin-left: 119px;
+  position: relative;
+}
+
+.card {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  border-radius: 40px;
+  gap: 24px;
+}
+
+
+.cardheader {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  background-image: url(./pictures/heartbutton.png);
+  background-size: cover;
+  margin-left: 34px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 16px;
+}
+
+.info-container {
+  width: 336px;
+  height: 78px;
+  padding-top: 12px;
+}
+
+.prices {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+  padding-left: 24px;
+}
+
+.package {
+  width: 336px;
+  height: 180px;
+  font-size: 16px;
+  color: #919191;
+  font-weight: 500;
+  font-family: "Inter", serif;
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  gap: 16px;
+}
+
+.include {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 64px;
+}
+
+.item {
+  padding-left: 24px;
+  color: Text/TextSecondary;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  gap: 16px;
+}
+
+.check {
+  gap: 16px;
+  background-image: url(./pictures/check.png);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+.select-button {
+  width: 336px;
+  height: 48px;
+  font-weight: 600;
+  border-radius: 40px;
+  background-color: #a4d1e2;
+  border: #a4d1e2;
+  margin-left: 24px;
+  margin-top: 37px;
+}
+
+.card:hover {
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.card:hover .select-button {
+  color: white;
+  background-color: black;
+}
+
+/*Footer Section*/
+.footer {
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  margin-top: 185px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+
+.social {
+  width: 167px;
+  height: 44px;
+  font-size: 18px;
+  color: #6972b5;
+  font-weight: 700;
+  border-radius: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social img{
+  width: 21px;
+  height: 21px;
+}
+
+.pinetour {
+  height: 35px;
+  width: 101px;
+  margin-left: auto;
+}
 
