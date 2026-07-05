@@ -7,13 +7,12 @@
 
 #hero-container {
   width: 100vw;
-  height: 100vh;
-  background-image: url(./pictures/HeroImage.png);
+  height: 120vh;
+  background-image: url(./pictures/HeroImage.png) ;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
 }
 
 #header-container {
@@ -71,9 +70,10 @@
 
 #LocationContainer {
   width: 100vw;
-  height: 100vh;
+  height: 500px;
   background-color: red;
   background-image: url(./pictures/Location\ image.png);
+  
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -102,8 +102,8 @@
   align-items: center;
   background-image: url(./pictures/1\ \(1\).png);
   box-shadow:
-    8px 8px 0px 0px #29728b,
-    -8px -8px 0px 0px #1f72aa;
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25),
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
 }
 
 #blackBox {
@@ -128,8 +128,8 @@
   align-items: center;
   border-radius: 40px;
   box-shadow:
-    8px 8px 0px 0px #29728b,
-    -8px -8px 0px 0px #1f72aa;
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25),
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
   align-items: center;
   background-image: url(./pictures/2.png);
 }
@@ -146,8 +146,8 @@
   align-items: center;
   border-radius: 40px;
   box-shadow:
-    8px 8px 0px 0px #29728b,
-    -8px -8px 0px 0px #1f72aa;
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25),
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
   align-items: center;
   background-image: url(./pictures/3.png);
 }
@@ -404,7 +404,7 @@
 
 #price {
   width: 100vw;
-  height: 100vh;
+  height: 1120px;
   background-image: url(./pictures/Price&Footer\ image.png);
   background-size: cover;
   margin: auto;
@@ -587,10 +587,15 @@
   justify-content: center;
   align-items: center;
 }
+.socialtext{
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 20px;
+}
 
 .social img {
-  width: 21px;
-  height: 21px;
+  width: 24px;
+  height: 24px;
 }
 
 .pinetour {
